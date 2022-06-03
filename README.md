@@ -1,24 +1,30 @@
-# api-quick-start
+# LAB - Class 34
 
-Template Project for starting up CRUD API with Django Rest Framework
+## Project: cookie-stand-api
 
-## Customization Steps
+## Author: Cole Gibbs
 
-- DO NOT migrate yet
-- add additional dependencies as needed
-  - Re-export requirements.txt as needed
-- change `things` folder to the app name of your choice
-- Search through entire code base for `Thing`,`Things` and `things` to modify code to use your resource
-  - `project/settings.py`
-  - `project/urls.py`
-  - App's files
-    - `views.py`
-    - `urls.py`
-    - `admin.py`
-    - `serializers.py`
-    - `permissions.py`
-- Update ThingModel with fields you need
-  - Make sure to update other modules that would be affected by Model customizations. E.g. serializers, tests, etc.
-- Rename `project/.env.sample` to `.env` and update as needed
-- Run makemigrations and migrate commands
-- Optional: Update `api_tester.py`
+## Links and Resources:
+
+- Class repo, notes, and template
+
+back-end server url: [Backend](https://cookie-stand-api-c401.herokuapp.com/)
+
+
+PORT - 5432
+DATABASE_URL - [Backend](https://cookie-stand-api-c401.herokuapp.com/)
+
+## Tests
+
+How do you run tests?
+
+1. docker compose run web bash
+2. python manage.py test
+
+Any tests of note?
+
+No tests of note.
+
+Describe any tests that you did not complete, skipped, etc
+
+I have two tests that are not passing. Both are expecting some 200 response, but getting a 400.
